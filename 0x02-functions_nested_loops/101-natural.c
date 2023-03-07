@@ -15,8 +15,8 @@ int main(void)
 		{
 			s += i;
 		}
-		i++
+		i++;
 	}
-	printf("%d\n", s)
+	printf("%d\n", s);
 		return (0);
 }
