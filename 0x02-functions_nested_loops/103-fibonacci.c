@@ -2,7 +2,7 @@
 
 /**
  * main -  finds and prints the sum of the even-valued terms,
- * less than  4,000,000
+ * less than  4000000
  * Return: 0
  */
 
@@ -13,7 +13,7 @@ int main(void)
 
 	while (k + j <  4000000)
 	{
-	k <= j;
+	k += j;
 	if (k % 2 == 0)
 	sum += k;
 	j = k - j;
