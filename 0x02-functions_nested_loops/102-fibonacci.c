@@ -3,7 +3,7 @@
 /**
  * main -  prints the first 50 Fibonacci numbers.
  *
- * @sum: numbers we are looking forr
+ * @sum: numbers we are looking for
  * Return: 0 (Success)
  */
 
