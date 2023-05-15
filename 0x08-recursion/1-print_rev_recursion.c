@@ -3,15 +3,15 @@
 /**
  * main - prints out a reverse string.
  *
- * @s - source string.
- * _print_rev_recursion - prints a string in reverse.
+ * @s: source string.
+ * _print_rev_recursion: prints a string in reverse.
  *
- * Return - the string to be printed.
+ * Return: the string to be printed.
  */
 
 void _print_rev_recursion(char *s)
 {
-	if(*s == 0)
+	if (*s == 0)
 	{
 		return;
 	}
