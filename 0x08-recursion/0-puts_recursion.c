@@ -11,15 +11,11 @@ void _puts_recursion(char *s)
 {
         if (*s == 0)
 	{
-         return;
+         putchar('\n');
 	}
-	printf("%c", *s);
-	_puts_recursion(++s);
-}
-
-int main(void)
-{
-	char s[] = "Puts with Recursion";
-	_puts_recursion(s);
-	return 0;
+	else
+	{
+		putchar(*s);
+			_puts_recursion(s + 1);
+	}
 }
