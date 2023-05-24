@@ -4,7 +4,7 @@
  * main - function that returns the length of a string.
  *
  * @s: source string
- * _strlen_recursion: prints the string length.
+ *@_strlen_recursion: prints the string length.
  *
  * Return: the string length.
  */
