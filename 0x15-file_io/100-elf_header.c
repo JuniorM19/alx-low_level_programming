@@ -43,7 +43,6 @@ void check_elf(unsigned char *e_ident)
 /**
  * print_magic - Prints the magic numbers of an ELF header.
  * @e_ident: A pointer to an array containing the ELF magic numbers.
- *
  * Description: Magic numbers are separated by spaces.
  */
 void print_magic(unsigned char *e_ident)
@@ -172,7 +171,7 @@ void print_osabi(unsigned char *e_ident)
 	printf("Standalone App\n");
 	break;
 	default:
-		printf("<unknown: %x>\n", e_ident[EI_OSABI]);
+	printf("<unknown: %x>\n", e_ident[EI_OSABI]);
 	}
 }
 
@@ -182,7 +181,7 @@ void print_osabi(unsigned char *e_ident)
  */
 void print_abi(unsigned char *e_ident)
 {
-	printf("  ABI Version:             %d\n",
+	printf("  ABI Version:                       %d\n",
 	e_ident[EI_ABIVERSION]);
 }
 
